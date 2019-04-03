@@ -1,0 +1,48 @@
+{
+    "title": "Senior Software Engineer",
+    "summary": "I'm interested in mainly building things and solving complex problems",
+    "studies": [
+      {
+        "institute": "Carleton University",
+        "logo": "",
+        "url": "https://carleton.ca",
+        "title": "Bachelor of Engineering Computer System",
+        "durationInYears": "5",
+        "graduationYear": 2011
+      }
+    ],
+    "certifications": [
+      {
+        "logo" : "",
+        "url": "https://www.pmi.org/",
+        "title": "Project Management Professional",
+        "issuer": "Project Management Institute",
+        "issueDate": "2017-12-16",
+        "expiryDate": "2023-12-15",
+        "verificationLink": "https://www.pmi.org/certifications/registry"
+      }
+    ],
+    "experiences": [
+      {
+        "companyName": "Nortac Defence",
+        "logo": "",
+        "url": "https://www.nortacdefence.com/",
+        "roles": [
+          {
+            "title": "Senior Software Engineer",
+            "description": "Lead Developer For The Message Handler Application the backend for T24 Defence SCC platform project which parses tracking data from different devices and sends it to different platforms/web services. Ported the application to run on Linux using mono and finally using .NET Core 2.0.",
+            "startDate": "2018-01-01",
+            "currentJob": true,
+            "location": "Ottawa ON, Canada"
+          },
+          {
+            "title": "Software Developer",
+            "description": "Developed an application with Kongsberg's high performance geospatial data visualization software which provides situational awareness, command and control to defence personnel in remote locations over satellite communications infrastructure. This application runs on windows and android tablets.",
+            "startDate": "2011-12-12",
+            "endDate": "2018-01-01",
+            "location": "Ottawa ON, Canada"
+          }
+        ]
+      }
+    ]
+  }
