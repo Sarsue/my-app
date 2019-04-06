@@ -27,8 +27,9 @@ class Profile extends React.Component {
     return <div>
       <Jumbotron>
         <Container>
+          <p>{profile.greeting}</p>
           <h1 className="display-3">{profile.title}</h1>
-          <p className="lead">{profile.summary}</p>
+          <h1 className="lead">{profile.summary}</h1>
         </Container>
       </Jumbotron>
 

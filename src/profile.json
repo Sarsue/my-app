@@ -1,6 +1,7 @@
 {
-    "title": "Senior Software Engineer",
-    "summary": "I'm interested in mainly building things and solving complex problems",
+    "greeting": "Hi, my name is",
+    "title": "Osasumwen Igbinedion",
+    "summary": "I am a software engineer based in Ottawa, ON specializing in building high quality mobile,desktop and web applications.",
     "studies": [
       {
         "institute": "Carleton University",
@@ -31,15 +32,25 @@
           {
             "title": "Senior Software Engineer",
             "description": "Lead Developer For The Message Handler Application the backend for T24 Defence SCC platform project which parses tracking data from different devices and sends it to different platforms/web services. Ported the application to run on Linux using mono and finally using .NET Core 2.0.",
+            "technologies": " C#, VS 2013 - 17, Rider IDE, NET CORE 2.0, .NET 4.5, WCF, Web Services, EF Core, NUnit, Mono, Docker, Linux, MySQL, MongoDB",
             "startDate": "2018-01-01",
             "currentJob": true,
             "location": "Ottawa ON, Canada"
           },
           {
+            "title": "Intermediate Software Developer",
+            "description": "Developed an application with Kongsberg's high geospatial data visualization software which provides situational awareness, command and control to defence personnel in remote locations over satellite communications infrastructure. This application runs on windows and android tablets.",
+            "technologies":" C#, VS 2013 - 15, .NET 3.5 +, WPF, MVVM, XAML, Entity Framework, NUnit, Git, VistaDB.",
+            "startDate": "2016-01-05",
+            "endDate": "2017-12-21",
+            "location": "Ottawa ON, Canada"
+          },
+          {
             "title": "Software Developer",
-            "description": "Developed an application with Kongsberg's high performance geospatial data visualization software which provides situational awareness, command and control to defence personnel in remote locations over satellite communications infrastructure. This application runs on windows and android tablets.",
+            "description": "Built the utilities used to configure the T24 Devices and also Ported AES 256 Encryption for an embedded device in LUA. This ensured Nortac Defence Organization won the contract.",
+            "technologies":" C#, VS 2013 - 15, .NET 3.5 +, WPF, MVVM, XAML,NUnit,Git,LUA",
             "startDate": "2011-12-12",
-            "endDate": "2018-01-01",
+            "endDate": "2015-12-21",
             "location": "Ottawa ON, Canada"
           }
         ]

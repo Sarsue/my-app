@@ -49,6 +49,7 @@ class Experience extends React.Component {
                               className="jobDuration">{startDate.format('MMM YYYY')} - {role.currentJob ? 'Present' : timeEnd.format('MMM YYYY')} ({getDuration(duration)})</span>
                             <span className="jobLocation">{role.location}</span>
                             <p className="jobDescription">{role.description}</p>
+                            <p>{role.technologies}</p>
                           </div>
                         })}
                       </Media>
