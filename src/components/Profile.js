@@ -3,6 +3,7 @@ import {Jumbotron, Container, TabContent, TabPane, Nav, NavItem, NavLink } from 
 import classnames from 'classnames';
 import Experience from "./Experience";
 import Education from './Education'
+import Contact from './Contact'
 import profile from '../profile.json'
 
 class Profile extends React.Component {
@@ -47,6 +48,12 @@ class Profile extends React.Component {
               Education
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink className={classnames({ active: this.state.activeTab === '3' })}
+                     onClick={() => { this.toggle('3'); }}>
+              Contact Me
+            </NavLink>
+          </NavItem>
         </Nav>
         <TabContent activeTab={this.state.activeTab}>
           <TabPane tabId="1">
@@ -54,6 +61,9 @@ class Profile extends React.Component {
           </TabPane>
           <TabPane tabId="2">
             <Education/>
+          </TabPane>
+          <TabPane tabId="3">
+            <Contact/>
           </TabPane>
         </TabContent>
       </Container>
