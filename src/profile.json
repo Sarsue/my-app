@@ -1,59 +1,66 @@
 {
-    "greeting": "Hi, my name is",
-    "title": "Osasumwen Igbinedion",
-    "summary": "I am a software engineer based in Ottawa, ON specializing in building high quality mobile,desktop and web applications.",
-    "studies": [
-      {
-        "institute": "Carleton University",
-        "logo": "",
-        "url": "https://carleton.ca",
-        "title": "Bachelor of Engineering Computer System",
-        "durationInYears": "5",
-        "graduationYear": 2011
-      }
-    ],
-    "certifications": [
-      {
-        "logo" : "",
-        "url": "https://www.pmi.org/",
-        "title": "Project Management Professional",
-        "issuer": "Project Management Institute",
-        "issueDate": "2017-12-16",
-        "expiryDate": "2023-12-15",
-        "verificationLink": "https://www.pmi.org/certifications/registry"
-      }
-    ],
-    "experiences": [
-      {
-        "companyName": "Nortac Defence",
-        "logo": "",
-        "url": "https://www.nortacdefence.com/",
-        "roles": [
-          {
-            "title": "Senior Software Engineer",
-            "description": "Lead Developer For The Message Handler Application the backend for T24 Defence SCC platform project which parses tracking data from different devices and sends it to different platforms/web services. Ported the application to run on Linux using mono and finally using .NET Core 2.0.",
-            "technologies": " C#, VS 2013 - 17, Rider IDE, NET CORE 2.0, .NET 4.5, WCF, Web Services, EF Core, NUnit, Mono, Docker, Linux, MySQL, MongoDB",
-            "startDate": "2018-01-01",
-            "currentJob": true,
-            "location": "Ottawa ON, Canada"
-          },
-          {
-            "title": "Intermediate Software Developer",
-            "description": "Developed an application with Kongsberg's high geospatial data visualization software which provides situational awareness, command and control to defence personnel in remote locations over satellite communications infrastructure. This application runs on windows and android tablets.",
-            "technologies":" C#, VS 2013 - 15, .NET 3.5 +, WPF, MVVM, XAML, Entity Framework, NUnit, Git, VistaDB.",
-            "startDate": "2016-01-05",
-            "endDate": "2017-12-21",
-            "location": "Ottawa ON, Canada"
-          },
-          {
-            "title": "Software Developer",
-            "description": "Built the utilities used to configure the T24 Devices and also Ported AES 256 Encryption for an embedded device in LUA. This ensured Nortac Defence Organization won the contract.",
-            "technologies":" C#, VS 2013 - 15, .NET 3.5 +, WPF, MVVM, XAML,NUnit,Git,LUA",
-            "startDate": "2011-12-12",
-            "endDate": "2015-12-21",
-            "location": "Ottawa ON, Canada"
-          }
-        ]
-      }
-    ]
-  }
+  "greeting": "Hi, my name is",
+  "title": "Osasumwen Emmanuel Igbinedion",
+  "summary": "I am a full-stack Software Developer with a decade of experience developing commercial software applications. For 8 years I developed satellite-based beyond line of sight blue force tracking systems that run on desktops, mobile phones and the web. I have earned steady recognition for my outstanding contributions throughout my career. Notable clients include defence and military organizations. I have a  Bachelor’s degree in Computer Systems Engineering from Carleton University and I am PMP certified. I am dedicated to continued learning and spend my free time experimenting with new technologies and contributing to open-source software. My inbox osasigbinedion@gmail.com is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!",
+  "studies": [
+    {
+      "institute": "Carleton University",
+      "logo": "",
+      "url": "https://carleton.ca",
+      "title": "Bachelor of Engineering Computer System",
+      "durationInYears": "5",
+      "graduationYear": 2011
+    }
+  ],
+  "certifications": [
+    {
+      "logo" : "",
+      "url": "https://www.pmi.org/",
+      "title": "Project Management Professional",
+      "issuer": "Project Management Institute",
+      "issueDate": "2017-12-16",
+      "expiryDate": "2023-12-15",
+      "verificationLink": "https://www.pmi.org/certifications/registry"
+    }
+  ],
+  "experiences": [
+    {
+      "companyName": "Contextere",
+      "logo": "contexterelogo.png",
+      "url": "https://contextere.com",
+      "roles": [
+        {
+          "title": "Lead Software Engineer",
+          "description": "Lead Engineer For the Contextere Blue Collar AI Platform",
+          "technologies":" C#, VS 2019, NET Core 2.2+, Python, Flask, Tensorflow, PyTorch, Azure",
+          "startDate": "2019-06-24",
+          "currentJob": true,
+          "location": "Ottawa ON, Canada"
+        }
+      ]
+    },
+    {
+      "companyName": "Nortac Defence",
+      "logo": "nortaclogo.jpg",
+      "url": "https://www.nortacdefence.com/",
+      "roles": [
+        {
+          "title": "Senior Software Engineer",
+          "description": "Lead Developer For The Message Handler Application the backend for T24 Defence SCC platform project which parses tracking data from different devices and sends it to different platforms/web services. Ported the application to run on Linux using mono and finally using .NET Core 2.0.",
+          "technologies": " C#, VS 2013 - 17, Rider IDE, NET CORE 2.0, .NET 4.5, WCF, Web Services, EF Core, NUnit, Mono, Docker, Linux, MySQL, MongoDB",
+          "startDate": "2017-09-21",
+          "endDate": "2019-06-21",
+          "location": "Ottawa ON, Canada"
+        },
+        {
+          "title": "Junior Software Developer",
+          "description": "Developed an application with Kongsberg's high geospatial data visualization software which provides situational awareness, command and control to defence personnel in remote locations over satellite communications infrastructure. This application runs on windows and android tablets.",
+          "technologies":" C#, VS 2013 - 15, .NET 3.5 +, WPF, MVVM, XAML, Entity Framework, NUnit, Git, VistaDB.",
+          "startDate": "2011-12-16",
+          "endDate": "2017-09-21",
+          "location": "Ottawa ON, Canada"
+        }
+      ]
+    }
+  ]
+}

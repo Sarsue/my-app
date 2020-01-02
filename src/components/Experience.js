@@ -4,6 +4,7 @@ import profile from "../profile";
 import moment from "moment";
 import { Media } from "reactstrap";
 import nortaclogo from '../nortaclogo.jpg';
+import contexterelogo from '../contexterelogo.png';
 
 function getDuration(duration) {
   const years = parseInt(duration / 12);
@@ -25,12 +26,12 @@ class Experience extends React.Component {
                   const duration = moment.duration(timeEnd.diff(startDate));
                   return Number(cnt) + Number(duration.asMonths().toPrecision(1));
                 }, 0);
-    
+                let icon = experience.companyName === "Contextere" ? contexterelogo : nortaclogo;
                 return (
-                  <div key={i}>
+                 <div key={i}>
                     <Media>
                       <Media left top href={experience.url}>
-                        <Media object src={nortaclogo} alt={experience.companyName}/>
+                        <Media object src={icon} alt={experience.companyName}/>
                       </Media>
                       <Media body>
                         <Media heading>
